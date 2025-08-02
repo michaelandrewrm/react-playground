@@ -1,7 +1,9 @@
+import UserProfile from './components/UserProfile';
+
 function App() {
   return (
     <>
-      <h1>My App</h1>
+      <UserProfile />
     </>
   );
 }
