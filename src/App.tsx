@@ -1,9 +1,11 @@
-import UserProfile from './components/UserProfile';
+import UserList from '@/widgets/UserList';
+import UserDetail from '@/widgets/UserDetail';
 
 function App() {
   return (
     <>
-      <UserProfile />
+      <UserList />
+      <UserDetail />
     </>
   );
 }
